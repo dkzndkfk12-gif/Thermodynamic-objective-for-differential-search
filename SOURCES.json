@@ -1,0 +1,64 @@
+{
+  "skinny_midori": {
+    "variants": [
+      "skinny64_8",
+      "skinny64_9",
+      "skinny64_10",
+      "skinny64_11",
+      "skinny128_14",
+      "skinny128_15",
+      "skinny128_16",
+      "midori64_8",
+      "midori64_9",
+      "midori64_10",
+      "midori128_9",
+      "midori128_10"
+    ],
+    "original_source": "skinny_midori_cpp_adaptive_threshold_20261020"
+  },
+  "present": {
+    "variants": [
+      "present16",
+      "present17"
+    ],
+    "original_source": "python_version/present_independent_exact_20261015"
+  },
+  "gift/gift64": {
+    "variants": [
+      "gift64_13",
+      "gift64_14"
+    ],
+    "original_source": "gift_cpp_statmech_exact_20261020"
+  },
+  "gift/gift128_20": {
+    "variants": [
+      "gift128_20"
+    ],
+    "original_source": "simon_gift_mass_search_v4_20261021/gift_cpp_statmech_exact_20261020"
+  },
+  "gift/gift128_21": {
+    "variants": [
+      "gift128_21"
+    ],
+    "original_source": "present_gift_cpp_indexed_pipeline_20261105/gift"
+  },
+  "twine": {
+    "variants": [
+      "twine64_14",
+      "twine64_15"
+    ],
+    "original_source": "twine_cpp_ais_selection_20261124"
+  },
+  "craft/craft13": {
+    "variants": [
+      "craft64_13"
+    ],
+    "original_source": "craft_cpp_ais_selection_20261124"
+  },
+  "craft/craft14": {
+    "variants": [
+      "craft64_14"
+    ],
+    "original_source": "craft_cpp_mass_search_20261122"
+  }
+}
