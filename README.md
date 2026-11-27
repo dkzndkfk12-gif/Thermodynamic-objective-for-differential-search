@@ -1,6 +1,6 @@
 # Thermodynamic Objective for Differential Search
 
-Source code for differential trail clustering experiments on SKINNY, Midori, PRESENT, GIFT, TWINE, and CRAFT. The repository contains 22 configurations.
+This repository contains the source code used in the paper *Thermodynamic Objective for Differential Trail Clustering*.
 
 ## Quick start
 
