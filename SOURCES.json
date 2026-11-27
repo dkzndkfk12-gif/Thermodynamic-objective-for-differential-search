@@ -21,7 +21,8 @@
       "present16",
       "present17"
     ],
-    "original_source": "python_version/present_independent_exact_20261015"
+    "original_source": "python_version/present_independent_exact_20261015",
+    "implementation": "native_cpp_present_v1"
   },
   "gift/gift64": {
     "variants": [

@@ -84,7 +84,7 @@ Options parse(int argc,char** argv){
             else if(k=="--sweeps")o.sweeps=n;
             else if(k=="--memory-bytes")o.memory_bytes=n;
             else if(k=="--corridor-nodes")o.corridor_nodes=n;
-            else if(k=="--seed-lookahead-work"){if(n>100000000)throw std::runtime_error("invalid lookahead work");o.seed_lookahead_work=n;}
+            else if(k=="--seed-lookahead-work"){o.seed_lookahead_work=n;}
             else if(k=="--seed-bidirectional"){if(n>1)throw std::runtime_error("invalid bidirectional option");o.seed_bidirectional=int(n);}
             else if(k=="--seed-transition-work"){if(n<1||n>100000000)throw std::runtime_error("invalid seed work");o.seed_work=n;}
             else{if(n>1000000)throw std::runtime_error("option too large");

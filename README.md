@@ -4,15 +4,15 @@ Source code for differential trail clustering experiments on SKINNY, Midori, PRE
 
 ## Quick start
 
-Use Linux or WSL with Python 3 and a C++17 compiler. On Ubuntu/Debian:
+Use Linux or WSL with a C++17 compiler. On Ubuntu/Debian:
 
 ```bash
-sudo apt install g++ python3 libgmp-dev libsqlite3-dev zlib1g-dev libzstd-dev
+sudo apt install g++ libgmp-dev libsqlite3-dev zlib1g-dev libzstd-dev
 bash run.sh skinny64_10 runs/skinny64_10 --cores 60 --hours 1
 bash run.sh gift128_21 runs/gift128_21 --cores 60 --hours 1
 ```
 
-Run commands from the repository root. Required executables are built automatically. Results and `build.log` are written to the specified output directory. Use `--seed N` to set the random seed.
+Run commands from the repository root. Required executables are built automatically. Results and `build.log` are written to the specified output directory. Use `--seed N` to set the random seed and `Ctrl+C` to stop.
 
 ## Supported configurations
 
