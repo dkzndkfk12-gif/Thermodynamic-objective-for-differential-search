@@ -12,7 +12,7 @@ bash run.sh skinny64_10 runs/skinny64_10 --cores 60 --hours 1
 bash run.sh gift128_21 runs/gift128_21 --cores 60 --hours 1
 ```
 
-Run commands from the repository root. Required executables are built automatically. Results and `build.log` are written to the specified output directory. Use `--seed N` to set the random seed and `Ctrl+C` to stop.
+Run commands from the repository root. Required executables are built automatically. Results and `build.log` are written to the specified output directory. Use `--seed N` to set the random seed.
 
 ## Supported configurations
 
