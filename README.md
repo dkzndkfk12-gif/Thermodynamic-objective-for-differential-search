@@ -42,4 +42,4 @@ bash run.sh twine64_14 runs/twine64_14 --cores 60 --hours 1 --resume
 
 Runs save certified probability lower bounds and resumable state. A saved bound may represent a partial sum when the time budget expires. Fresh runs start without saved results or literature input/output differences.
 
-See [SOURCES.json](SOURCES.json) for source provenance and [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt) for dependency notices.
+See [SOURCES.json](SOURCES.json) for source provenance and [third_party/LICENSE](third_party/LICENSE) for dependency notices.
